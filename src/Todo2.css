@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    background-color: black;
+}
+
+p{
+    color:black;
+    font-size: larger;
+}
+
+.to-do-list{
+    color:white;
+}
+
+.addbtn{
+    height:45px;
+    width:45px;
+}
+
+.input{
+    width:290px;
+    height:40px;
+}
+
+.full{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    padding:50px;
+    gap:30px;
+    align-items: center;
+}
+
+.ols{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    flex:1fr;
+    padding: 12px 24px;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.lis{
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    text-align:justify;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2rem;
+    padding:12px 12px;
+    display:flex;
+    gap:05px;
+    max-width: 340px;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btns{
+    padding:4px 8px;
+    color: aliceblue;
+    background-color: rgb(57, 108, 184);
+}
+
+.del{
+    padding:4px 8px;
+    color:blanchedalmond;
+    background-color: red;
+}
+
